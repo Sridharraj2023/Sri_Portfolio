@@ -47,7 +47,7 @@ export default function Hero() {
         </p>
         <div className={styles.actions}>
           <a href="#projects" className={styles.primary}>View My Work</a>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className={styles.secondary}>Download CV</a>
+          <a href="#contact" className={styles.secondary}>Get in Touch</a>
         </div>
         <div className={styles.socials}>
           <a href="https://github.com/Sridharraj2023" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><FiGithub /></a>
