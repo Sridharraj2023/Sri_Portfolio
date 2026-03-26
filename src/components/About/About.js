@@ -97,8 +97,10 @@ export default function About() {
                 <span className={styles.eduSchool}>Bharathiyar University (2009–2012)</span>
               </div>
               <div className={styles.eduItem}>
-                <span className={styles.eduDegree}>Full Stack Certification</span>
-                <span className={styles.eduSchool}>GUVI — IIT Chennai (2024)</span>
+                <a href="https://www.guvi.in/certificate?id=85071s8Y9T2032159M" target="_blank" rel="noopener noreferrer" className={styles.certLink}>
+                  🎓 Full Stack Certification ↗ 
+                </a>
+                <span className={styles.eduSchool}> GUVI — IIT Chennai (2024)</span>
               </div>
             </div>
           </div>

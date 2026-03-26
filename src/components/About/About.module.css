@@ -109,6 +109,20 @@
   font-weight: 600;
 }
 
+.certLink {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.certLink:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
 .eduSchool {
   font-size: 0.82rem;
   color: var(--text-secondary);
