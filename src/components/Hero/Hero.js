@@ -42,8 +42,8 @@ export default function Hero() {
           <span className={styles.cursor}>|</span>
         </div>
         <p className={styles.tagline}>
-          Frontend-focused Full-Stack Developer specializing in React 19 &amp; Spring Boot microservices.
-          <br />Building secure IAM dashboards, healthcare systems &amp; scalable Node.js APIs.
+          Frontend-focused Full-Stack Developer specializing in React &amp; Node.js.
+          <br />Building secure IAM dashboards, healthcare systems &amp; scalable REST APIs.
         </p>
         <div className={styles.actions}>
           <a href="#projects" className={styles.primary}>View My Work</a>

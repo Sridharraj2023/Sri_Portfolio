@@ -1,7 +1,7 @@
 import styles from './About.module.css';
 
 const STATS = [
-  { value: '4+', label: 'Years Experience' },
+  { value: '3+', label: 'Years Experience' },
   { value: '4+', label: 'Production Projects' },
   { value: '4', label: 'Companies' },
 ];
@@ -12,8 +12,8 @@ const EXPERIENCE = [
     company: 'OneData Software Solutions',
     period: 'Aug 2025 — Present',
     location: 'Coimbatore',
-    desc: 'Engineered a high-performance React 19 frontend with TanStack Query, reducing API overhead by 60%. Architected modular microservices using Kotlin & Spring Boot for IAM, Subscription, Billing & Notifications.',
-    tech: ['React 19', 'TypeScript', 'TanStack Suite', 'PostgreSQL', 'Kotlin 1.9', 'Spring Boot'],
+    desc: 'Engineered a high-performance React frontend with TanStack Query, reducing API overhead by 60%. Built complex IAM dashboards, Subscription & Billing UIs with TanStack Form + Zod validation.',
+    tech: ['React', 'TypeScript', 'TanStack Suite', 'Zustand', 'Tailwind CSS', 'PostgreSQL', 'Zod'],
   },
   {
     role: 'MERN Full Stack Developer',
@@ -52,9 +52,9 @@ export default function About() {
         <div className={styles.grid}>
           <div className={styles.text}>
             <p>
-              Frontend-focused Full-Stack Developer specializing in React 19 applications
-              integrated with JVM/Spring Boot microservices. Expert in building secure IAM
-              dashboards and data tools using PostgreSQL.
+              Frontend-focused Full-Stack Developer with 3+ years of hands-on experience in
+              React and Node.js. Expert in building secure IAM dashboards, data tools, and
+              scalable REST APIs.
             </p>
             <p>
               High-velocity engineer leveraging Cursor and AI (Claude, Gemini, Copilot) to

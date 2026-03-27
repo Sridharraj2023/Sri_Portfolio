@@ -2,13 +2,18 @@ import styles from './TechStack.module.css';
 
 const STACK = {
   Core: [
-    { name: 'React 19', icon: '⚛️' },
+    { name: 'React', icon: '⚛️' },
     { name: 'TypeScript', icon: '🔷' },
     { name: 'Node.js', icon: '🟢' },
     { name: 'Express JS', icon: '🚀' },
     { name: 'TanStack Suite', icon: '📊' },
+    { name: 'Redux', icon: '🔄' },
     { name: 'Zustand', icon: '🐻' },
     { name: 'Tailwind CSS', icon: '🎨' },
+    { name: 'Bootstrap', icon: '🅱️' },
+    { name: 'Material UI', icon: '🎭' },
+    { name: 'CSS', icon: '🎨' },
+    { name: 'HTML', icon: '📄' },
     { name: 'JavaScript', icon: '🟨' },
     { name: 'MongoDB', icon: '🍃' },
     { name: 'PostgreSQL', icon: '🐘' },
@@ -23,8 +28,6 @@ const STACK = {
     { name: 'Zod', icon: '✔️' },
   ],
   Familiar: [
-    { name: 'Spring Boot', icon: '🍃' },
-    { name: 'Kotlin', icon: '🟣' },
     { name: 'Flutter', icon: '🦋' },
     { name: 'Stripe API', icon: '💳' },
     { name: 'Git', icon: '📦' },
@@ -32,7 +35,12 @@ const STACK = {
     { name: 'Netlify', icon: '🌐' },
     { name: 'Vercel', icon: '▲' },
     { name: 'Railway', icon: '🚂' },
+    { name: 'Render', icon: '🖥️' },
     { name: 'Cursor / Copilot', icon: '🤖' },
+    { name: 'Figma', icon: '🎨' },
+    { name: 'Storybook', icon: '📖' },
+    { name: 'Google Play Console', icon: '▶️' },
+    { name: 'Android Deployment', icon: '📱' },
   ],
 };
 
